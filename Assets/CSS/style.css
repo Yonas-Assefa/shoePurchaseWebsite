@@ -1,7 +1,27 @@
+body{
+    background: url("../images/footwear-1838767__340.jpg");
+    background-size: cover;
+}
+
 .carousel-item{
 background:#000;
 }
 
 .carousel-item img{
     opacity: 0.6;
+}
+
+.shoe-expo-color{
+    color: #fff !important;
+}
+
+.trans-image{   
+    transition: 2s;
+}
+
+.trans-image:hover{
+    transform: scale(1.1);
+}
+.body-text-color{
+    color: #fff;
 }
