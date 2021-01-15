@@ -74,7 +74,7 @@
     </header>
 
     <!--Registration form -->
-    <h3 class="pt-5 text-center">Create an Account</h3>     <hr>
+    <h3 class="pt-5 text-center">Login Here</h3>     <hr>
     <div class="container">
         <div class="row">
             <div class="col-2 col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xm-2">
@@ -84,32 +84,67 @@
             <div class="col-7 col-xl-4 col-lg-6 col-md-5 col-sm-7 col-xm-7">
                 <form action="" class="needs-validation" novalidate>
                     <div class="form-group my-3">
-                        <label for="fname">First Name : </label>
-                        <input class="form-control" type="text" name="fname" id="fname" required>
+                        <label for="shoe-type">1. Choose shoe type</label><br>
+                        <input class="dots" type="radio" id="boots" name="shoe-type" value="boots" >
+                        <label for="boots">Boots</label><br>
+                        
+                        <input class="dots"  type="radio" id="Sandals" name="shoe-type" value="sandals">
+                        <label for="Sandals">Sandals</label><br>
+
+                        <input class="dots"  type="radio" id="Sneakers" name="shoe-type" value="Sneakers">
+                        <label for="Sneakers">Sneakers</label><br>
+
+                        <input class="dots"  type="radio" id="heals" name="shoe-type" value="Heals">
+                        <label for="heals">Heals</label><br>
+                        
+                        <input class="dots"  type="radio" id="others" name="shoe-type" value="others">
+                        <label for="others">others</label><br>
                         <div class="invalid-feedback">please fill the required field</div>
                     </div>
+
                     <div class="form-group my-3">
-                        <label for="sname">Last Name : </label>
-                        <input class="form-control" type="text" name="lname" id="fname" required>
+                        <label for="shoe-brand">2. Choose shoe </label><br>
+                        <input class="dots" type="radio" id="Nike" name="shoe-brand" value="Nike">
+                        <label for="Nike">Nike</label><br>
+                        
+                        <input class="dots"  type="radio" id="Addidas" name="shoe-brand" value="Addidas">
+                        <label for="Addidas">Addidas</label><br>
+
+                        <input class="dots"  type="radio" id="Puma" name="shoe-brand" value="Puma">
+                        <label for="Puma">Puma</label><br>
+                        
+                        <input class="dots"  type="radio" id="others" name="shoe-brand" value="others">
+                        <label for="others">others</label><br>
                         <div class="invalid-feedback">please fill the required field</div>
                     </div>
-                    <div class="form-group my-3">
-                        <label for="memail">Email : </label>
-                        <input class="form-control" type="email" name="memail" id="memail"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]">
-                        <div class="invalid-feedback">please fill the required field. add a @ sign in your email</div>
-                    </div>
-                    <div class="form-group my-3">
-                        <label for="pass">Password : </label>
-                        <input class="form-control" type="password" name="pass" id="pass" required>
+
+                    <div>
+                        <label for="quantity">3.Enter number of shoe you want(max.10):</label><br>
+                        <input class="submit-blank" type="number" id="quantity" name="quantity" min="1" max="10">
                         <div class="invalid-feedback">please fill the required field</div>
                     </div>
+
                     <div class="form-group my-3">
-                        <label for="pass2">Confirm Password : </label>
-                        <input class="form-control" type="password" name="pass2" id="pass2" required>
+                        <label for="payment-method">4. Choose payment mmethod </label><br>
+                        <input class="dots" type="radio" id="Cash" name="payment-method" value="Cash">
+                        <label for="Cash">Cash</label><br>
+                        
+                        <input class="dots"  type="radio" id="credit card" name="payment-method" value="credit card">
+                        <label for="redit card">Credit card</label><br>
+
+                        <input class="dots"  type="radio" id="Other" name="payment-method" value="Other">
+                        <label for="Other">Other</label><br>
                         <div class="invalid-feedback">please fill the required field</div>
+                        
                     </div>
-                    <div class="form-group my-3 text-center"><label for="fname">
-                        <input class=" btn btn-outline-primary form-control-lg" type="submit" >
+                        <label for="delivery-date">5. Enter delivery date:</label><br>
+                        <input type="date" id="delivery-date" name="delivery-date">
+                        <div class="invalid-feedback">please fill the required field</div>
+
+                    
+
+                    <div class="form-group my-3 text-center">
+                        <button class="btn btn-outline-primary" type="submit">submit</button>
                     </div>
                 </form>
             </div>
@@ -197,3 +232,57 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+
+1.choose shoe type
+    -
+    -heels 
+    -sneakers 
+    -Sandals
+    -Others
+
+2.enter amount 
+
+3.-choose payment method
+        A.
+        B.
+        C.
+        D.
+4.-do yo need a recipt
+        Years
+        no 
+
+5.-enter your Address
+
+6.-enter the date of the deivery
+
+
+ankle boot. army boots. athletic shoes.
+ballet shoes. beach shoes. boat shoes. boots. bowling shoes. brogues.
+cleats. climbing shoes. clogs. court shoes. cowboy boots. cycling shoes.
+deck shoes. dress shoes.
+elevator shoes. espadrilles.
+figure skates. flip-flops.
+galoshes. golf shoes. gumboots.
+heels. high heels. high-top sneakers. hiking boots.

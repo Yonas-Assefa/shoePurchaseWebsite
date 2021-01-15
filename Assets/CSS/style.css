@@ -26,6 +26,14 @@ background:#000;
 .body-text-color{
     color: #fff;
 }
+.dots{
+    margin-left: 15px;
+}
+
+.submit-blank{
+    margin-left: 20px;
+    padding-left: 10px;
+}
 
 
     
