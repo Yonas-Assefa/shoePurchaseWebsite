@@ -66,57 +66,57 @@
         
     </header>
 
-    <!--the main promotion body of the site -->
-    <div class="row text-center p-5">
-        <div class="col-lg-4 my-3">
-            <p>✅✅</p>
-            <p class="font-weight-bold"> Beauty In your Eye</p>
-            <p>Our Pordcuts have the best eastatics in the world that can attract any body</p>
+    <!--Registration form -->
+    <h3 class="pt-5 text-center">Create an Account</h3>     <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-xl-4 col-lg-3 col-md-3 col-sm-2 col-xm-2">
+
+            </div>
+
+            <div class="col-7 col-xl-4 col-lg-6 col-md-5 col-sm-7 col-xm-7">
+                <form action="" class="needs-validation" novalidate>
+                    <div class="form-group my-3">
+                        <label for="fname">First Name : </label>
+                        <input class="form-control" type="text" name="fname" id="fname" required>
+                        <div class="invalid-feedback">please fill the required field</div>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="sname">Last Name : </label>
+                        <input class="form-control" type="text" name="lname" id="fname" required>
+                        <div class="invalid-feedback">please fill the required field</div>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="memail">Email : </label>
+                        <input class="form-control" type="email" name="memail" id="memail"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]">
+                        <div class="invalid-feedback">please fill the required field. add a @ sign in your email</div>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="pass">Password : </label>
+                        <input class="form-control" type="password" name="pass" id="pass" required>
+                        <div class="invalid-feedback">please fill the required field</div>
+                    </div>
+                    <div class="form-group my-3">
+                        <label for="pass2">Confirm Password : </label>
+                        <input class="form-control" type="password" name="pass2" id="pass2" required>
+                        <div class="invalid-feedback">please fill the required field</div>
+                    </div>
+                    <div class="form-group my-3 text-center"><label for="fname">
+                        <input class=" btn btn-outline-primary form-control-lg" type="submit" >
+                    </div>
+                </form>
+            </div>
+
+            <div class=" col-3 col-xl-4 col-lg-3  col-md-3 col-sm-3 col-xm-3">
+
+            </div>
+
         </div>
         
-        <div class="col-lg-4  my-3">
-            <p>💁‍♀️💁‍♀️</p>
-            <p class="font-weight-bold"> Comfortable for your Foot</p>
-            <p>Our Pordcuts have the the most confort for you and your health</p>
-        </div>
-    
-        <div class="col-lg-4  my-3">
-            <p>🦍🦍</p>
-            <p class="font-weight-bold"> Guarantee for Years </p>
-            <p>Our Pordcuts have one year waranty if you want to change of your shopping</p>
-        </div>
     </div>
 
-    <!--the  carousel slider-->
 
-<div class="container">
-    <div id="mySlide" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#mySlide" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#mySlide" data-bs-slide-to="1"></li>
-          <li data-bs-target="#mySlide" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner mx-auto">
-          <div class="carousel-item active">
-            <img src="Assets/images/brown-shoes-1150071_1280.jpg" class="d-block " alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Assets/images/feet-1840619_1280.jpg" class="d-block " alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Assets/images/shoes-1246691_1280.jpg" class="d-block " alt="">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#mySlide" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mySlide" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-    </div>
-</div>
+
     
     
 
@@ -133,5 +133,22 @@
 
     <!--jquery link-->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+
+
+        <!--this is a javascript code for the form validation-->
+        <script>
+            var form = document.querySelector('.needs-validation');
+            form.addEventListener('submit',function(event){
+                if (form.checkValidity()==false){
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            })
+        </script>
+
+
+
 </body>
 </html>

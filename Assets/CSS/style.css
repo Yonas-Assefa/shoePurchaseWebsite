@@ -1,6 +1,7 @@
 body{
     background: url("../images/footwear-1838767__340.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .carousel-item{
