@@ -26,3 +26,40 @@ background:#000;
 .body-text-color{
     color: #fff;
 }
+
+
+    
+
+
+
+a:link{
+    color: #fff;
+    
+}
+
+
+
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:link{
+    color: #fff;
+}
+
+ul li a:visited{
+    color: #ddd;
+}
+
+ul li a:hover{
+    color: #777;
+}
+
+
+/*
+footer{
+    padding-top: 200px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}*/
